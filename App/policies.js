@@ -6,15 +6,21 @@
 const b2cPolicies = {
     names: {
         signUpSignIn: "B2C_1_signupsignin1",
+        forgotPassword: "B2C_1_reset",
         editProfile: "B2C_1_profileediting1"
     },
     authorities: {
         signUpSignIn: {
             authority: "https://melvinhgfb2c.b2clogin.com/melvinhgfb2c.onmicrosoft.com/B2C_1_signupsignin1",
         },
+        forgotPassword: {
+
+authority: "https://melvinhgfb2c.b2clogin.com/melvinhgfb2c.onmicrosoft.com/B2C_1_reset",
+
+        },
         editProfile: {
             authority: "https://melvinhgfb2c.b2clogin.com/melvinhgfb2c.onmicrosoft.com/B2C_1_profileediting1"
         }
     },
-    authorityDomain: "melvinhgfb2c.onmicrosoft.com"
+    authorityDomain: "melvinhgfb2c.b2clogin.com"
 }
