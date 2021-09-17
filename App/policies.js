@@ -16,5 +16,5 @@ const b2cPolicies = {
             authority: "https://melvinhgfb2c.b2clogin.com/melvinhgfb2c.onmicrosoft.com/B2C_1_profileediting1"
         }
     },
-    authorityDomain: "melvinhgfb2c.b2clogin.com"
+    authorityDomain: "melvinhgfb2c.onmicrosoft.com"
 }
